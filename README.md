@@ -1,2 +1,2 @@
 # Simon-Game
-Fun little challenge used jquery js css html
+Fun little challenge used html css mainly jquery js
