@@ -75,9 +75,10 @@ $('.btn').on("click", function(e) {
       let fade = $(".btn")[random[random.length - 1]];
       let sound = random[random.length - 1];
       setTimeout(function() {
+        if (random.length >=  1) {
         $(fade).fadeOut(75).fadeIn(75).fadeOut(75).fadeIn(75);
         btn[sound].play();
-      }, 1100);
+      }}, 1100);
       $('h1').text('level ' + random.length);
     }
   }
