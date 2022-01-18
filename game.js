@@ -93,7 +93,7 @@ $('.btn').on("click", function(e) {
     $('body').addClass("game-over");
     setTimeout(function() {
       $('body').removeClass("game-over")
-    }, 250)
+    }, 250);
 
   }
   // unsuccessful guess                unsuccessful guess          unsuccessful guess
