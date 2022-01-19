@@ -88,7 +88,7 @@ $('.btn').on("click", function(e) {
   else {
     random = [];
     player = [];
-    $('h1').text('Game Over, Press Any Key to Restart');
+    $('h1').text('Game Over, Press Any Keyboard Key to Restart');
     wrong.play();
     $('body').addClass("game-over");
     setTimeout(function() {
